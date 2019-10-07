@@ -1,0 +1,13 @@
+<!-- Individual entry page containing blog title & body -->
+
+{% extends "base.html" %}
+
+{% block content %}
+      <div class="content content-text wow fadeIn">
+
+        <h1 class="entry-title">{{blog_title}}</h1>
+
+        <p>{{blog_body}}</p>
+
+      </div>
+{% endblock %}
